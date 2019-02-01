@@ -43,7 +43,7 @@ namespace Miharu.MemoryMonitor
             Console.WriteLine("対象プロセス名を入力");
             string str = Console.ReadLine();
             Console.WriteLine("取得周期を入力[秒](誤差＋1秒あり)");
-            int period = 1;
+            //int period = 1;
             try
             {
                 period = int.Parse(Console.ReadLine()) * 1000;
